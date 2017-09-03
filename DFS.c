@@ -18,7 +18,6 @@ int main()
     for (i = 0; i < NODE_SIZE; i++)
         visited[i] = 0;
 
-    
     dfs(0);
 
     return 0;
@@ -27,7 +26,7 @@ int main()
 void dfs(int v)
 {
     int w;
-    
+
     visited[v] = 1; // mark v as visited
     visit(v);
 

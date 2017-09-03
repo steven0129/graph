@@ -31,7 +31,7 @@ void enQueue(int item)
     if (rear >= MAX_QUEUE - 1)
         printf("queue is full!!\n");
     else
-        queue[++rear];
+        queue[++rear] = item;
 }
 
 int deQueue()
